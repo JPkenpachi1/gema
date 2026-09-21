@@ -1,0 +1,139 @@
+[
+  {
+    "slug": "six-sigma-awareness",
+    "title": "Six Sigma Awareness Training",
+    "subtitle": "Six Sigma Awareness course is designed to understand the Six Sigma process, overview of an DMAIC structured problem solving methodology, potential benefits of applying to your industry, set of tools to drive the process improvements and metrics.",
+    "image": null,
+    "points": [
+      { "text": "Understanding the concept of DMAIC Approach", "sort_order": 1 },
+      { "text": "Overview of Six Sigma Tools", "sort_order": 2 },
+      { "text": "Project Team Approach", "sort_order": 3 },
+      { "text": "Reduce Process Variation", "sort_order": 4 },
+      { "text": "Graphical and Statistical Techniques", "sort_order": 5 },
+      { "text": "Exceed Customer Expectation", "sort_order": 6 },
+      { "text": "Six Sigma Organisation", "sort_order": 7 }
+    ],
+    "timeline_items": [
+      {
+        "title": "Training Content",
+        "description": "A structured walkthrough of the Six Sigma body of knowledge, from its origins to the DMAIC problem-solving methodology.",
+        "sort_order": 1,
+        "points": [
+          { "text": "History of Six Sigma", "sort_order": 1 },
+          { "text": "Six Sigma Overview", "sort_order": 2 },
+          { "text": "DMAIC - A Logical Approach to Problem Solving", "sort_order": 3 },
+          { "text": "Overview of Tools used in Define Phase", "sort_order": 4 },
+          { "text": "Overview of Tools used in Measure Phase", "sort_order": 5 },
+          { "text": "Overview of Tools used in Analyze Phase", "sort_order": 6 },
+          { "text": "Overview of Tools used in Improve Phase", "sort_order": 7 },
+          { "text": "Overview of Tools used in Control Phase", "sort_order": 8 }
+        ]
+      },
+      {
+        "title": "Training Methodology",
+        "description": "The course is delivered through an engaging mix of instruction, discussion, and assessment.",
+        "sort_order": 2,
+        "points": [
+          { "text": "Presentation", "sort_order": 1 },
+          { "text": "Interactive Session", "sort_order": 2 },
+          { "text": "Q&A Session", "sort_order": 3 },
+          { "text": "Written Examination", "sort_order": 4 }
+        ]
+      },
+      {
+        "title": "Who Should Attend",
+        "description": "This course is ideal for anyone looking to build a solid foundation in Six Sigma concepts.",
+        "sort_order": 3,
+        "points": [
+          { "text": "Managers & Project Sponsors", "sort_order": 1 },
+          { "text": "Six Sigma Trainees", "sort_order": 2 },
+          { "text": "Six Sigma Practitioners", "sort_order": 3 },
+          { "text": "Students or any Professionals who wants to understand Six Sigma Concept", "sort_order": 4 }
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "iso-9001-lead-auditor",
+    "title": "ISO 9001:2015 Lead Auditor Training",
+    "subtitle": "Become a certified lead auditor. Learn to plan, conduct, and report QMS audits against the ISO 9001:2015 standard with confidence.",
+    "image": null,
+    "points": [
+      { "text": "Master the ISO 9001:2015 requirements clause by clause", "sort_order": 1 },
+      { "text": "Plan and lead full audit cycles", "sort_order": 2 },
+      { "text": "Write professional audit reports", "sort_order": 3 },
+      { "text": "Handle nonconformities and corrective actions", "sort_order": 4 }
+    ],
+    "timeline_items": [
+      {
+        "title": "Course Content",
+        "description": "Five intensive days covering the complete audit lifecycle.",
+        "sort_order": 1,
+        "points": [
+          { "text": "QMS fundamentals & ISO 9001:2015 structure", "sort_order": 1 },
+          { "text": "Audit planning and checklists", "sort_order": 2 },
+          { "text": "Conducting the audit — interviewing techniques", "sort_order": 3 },
+          { "text": "Reporting and follow-up", "sort_order": 4 }
+        ]
+      },
+      {
+        "title": "Who Should Attend",
+        "description": "Quality professionals responsible for audit programs.",
+        "sort_order": 2,
+        "points": [
+          { "text": "Quality Managers & Engineers", "sort_order": 1 },
+          { "text": "Internal Auditors moving to Lead Auditor", "sort_order": 2 },
+          { "text": "Consultants and compliance officers", "sort_order": 3 }
+        ]
+      }
+    ]
+  },
+  {
+  "slug": "iso-45001-2018",
+  "title": "ISO 45001:2018 OH&S Management System Training",
+  "subtitle": "Learn to establish, implement and maintain an Occupational Health & Safety management system that prevents work-related injury and ill health while proactively improving OH&S performance.",
+  "image": null,
+  "points": [
+    { "text": "Understand ISO 45001:2018 requirements clause by clause", "sort_order": 1 },
+    { "text": "Identify hazards and minimize OH&S risks", "sort_order": 2 },
+    { "text": "Eliminate system deficiencies and address nonconformities", "sort_order": 3 },
+    { "text": "Improve OH&S performance and seize improvement opportunities", "sort_order": 4 },
+    { "text": "Prepare for certification and registration audits", "sort_order": 5 }
+  ],
+  "timeline_items": [
+    {
+      "title": "Implementation Steps",
+      "description": "A proven 14-step roadmap to implement and register your OH&S management system.",
+      "sort_order": 1,
+      "points": [
+        { "text": "Top Management Commitment", "sort_order": 1 },
+        { "text": "Appoint the Management Representative", "sort_order": 2 },
+        { "text": "Awareness", "sort_order": 3 },
+        { "text": "Appoint an Implementation Team", "sort_order": 4 },
+        { "text": "Training", "sort_order": 5 },
+        { "text": "Time Schedule", "sort_order": 6 },
+        { "text": "Select Element Owners", "sort_order": 7 },
+        { "text": "Review the Present System", "sort_order": 8 },
+        { "text": "Write the Documents", "sort_order": 9 },
+        { "text": "Install the New System", "sort_order": 10 },
+        { "text": "Internal Audit", "sort_order": 11 },
+        { "text": "Management Review", "sort_order": 12 },
+        { "text": "Pre-assessment (Optional)", "sort_order": 13 },
+        { "text": "Registration", "sort_order": 14 }
+      ]
+    },
+    {
+      "title": "Who Should Attend",
+      "description": "Professionals responsible for workplace health, safety and compliance.",
+      "sort_order": 2,
+      "points": [
+        { "text": "HSE Managers & Officers", "sort_order": 1 },
+        { "text": "Management Representatives", "sort_order": 2 },
+        { "text": "Implementation team members and supervisors", "sort_order": 3 },
+        { "text": "Internal Auditors", "sort_order": 4 },
+        { "text": "Any organization seeking ISO 45001 certification", "sort_order": 5 }
+      ]
+    }
+  ]
+}
+]

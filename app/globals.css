@@ -1,26 +1,75 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ✅ Tailwind v4 class-based dark mode */
+@variant dark (&:where(.dark, .dark *));
+
+/* ─────────────────────────────────────────
+   @theme — Tailwind reads these and generates
+   text-primary, bg-primary, border-primary etc.
+───────────────────────────────────────── */
+@theme {
+  /* Primary */
+  --color-primary:          #2563eb;
+  --color-primary-hover:    #1d4ed8;
+  --color-primary-light:    #dbeafe;
+  --color-primary-muted:    #eff6ff;
+
+  /* Secondary */
+  --color-secondary:        #475569;
+  --color-secondary-hover:  #334155;
+  --color-secondary-light:  #f1f5f9;
+  --color-secondary-muted:  #f8fafc;
+
+  /* Accent */
+  --color-accent:           #f59e0b;
+  --color-accent-hover:     #d97706;
+
+  /* Surface & Text */
+  --color-background:       #ffffff;
+  --color-foreground:       #0f172a;
+  --color-muted:            #64748b;
+  --color-surface:          #f8fafc;
+  --color-border:           #e2e8f0;
+
+  /* Fonts */
+  --font-sans:              var(--font-geist-sans);
+  --font-mono:              var(--font-geist-mono);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ─────────────────────────────────────────
+   Dark Mode Overrides
+   Note: rgba() values won't work inside @theme
+   so keep rgba borders here in .dark
+───────────────────────────────────────── */
+.dark {
+  --color-primary:          #3b82f6;
+  --color-primary-hover:    #60a5fa;
+  --color-primary-light:    #1e3a5f;
+  --color-primary-muted:    #1e3050;
+
+  --color-secondary:        #94a3b8;
+  --color-secondary-hover:  #cbd5e1;
+  --color-secondary-light:  #1e293b;
+  --color-secondary-muted:  #1a2030;
+
+  --color-accent:           #fbbf24;
+  --color-accent-hover:     #f59e0b;
+
+  --color-background:       #0a0a0a;
+  --color-foreground:       #f1f5f9;
+  --color-muted:            #94a3b8;
+  --color-surface:          #111827;
+  --color-border:           #1e293b;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* ─── Base ─── */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
 }
+cursor{ display: block;}
+
+
+
